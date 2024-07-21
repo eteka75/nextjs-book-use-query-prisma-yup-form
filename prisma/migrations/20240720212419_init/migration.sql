@@ -1,0 +1,6 @@
+-- CreateTable
+CREATE TABLE "Booking" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "startDate" DATETIME NOT NULL,
+    "endDate" DATETIME NOT NULL
+);
